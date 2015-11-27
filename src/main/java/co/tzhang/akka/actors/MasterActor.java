@@ -1,12 +1,12 @@
-package actors;
+package co.tzhang.akka.actors;
 
 import akka.actor.ActorRef;
 import akka.actor.Props;
 import akka.actor.UntypedActor;
 import akka.routing.RoundRobinPool;
-import message.MapData;
-import message.ReduceData;
-import message.Result;
+import co.tzhang.akka.message.MapData;
+import co.tzhang.akka.message.ReduceData;
+import co.tzhang.akka.message.Result;
 
 /**
  * Created by TZhang on 27/11/15.

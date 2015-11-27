@@ -1,11 +1,11 @@
-package actors;
+package co.tzhang.akka.actors;
 
 import java.util.HashMap;
 import java.util.Map;
 
 import akka.actor.UntypedActor;
-import message.ReduceData;
-import message.Result;
+import co.tzhang.akka.message.ReduceData;
+import co.tzhang.akka.message.Result;
 
 /**
  * Created by TZhang on 27/11/15.

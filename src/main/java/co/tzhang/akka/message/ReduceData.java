@@ -1,4 +1,4 @@
-package message;
+package co.tzhang.akka.message;
 
 import java.util.HashMap;
 

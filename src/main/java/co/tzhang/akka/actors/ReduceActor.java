@@ -1,12 +1,12 @@
-package actors;
+package co.tzhang.akka.actors;
 
 import java.util.HashMap;
 import java.util.List;
 
 import akka.actor.UntypedActor;
-import message.MapData;
-import message.ReduceData;
-import message.WordCount;
+import co.tzhang.akka.message.MapData;
+import co.tzhang.akka.message.ReduceData;
+import co.tzhang.akka.message.WordCount;
 
 /**
  * Created by TZhang on 27/11/15.

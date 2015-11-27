@@ -1,4 +1,4 @@
-package actors;
+package co.tzhang.akka.actors;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -6,8 +6,8 @@ import java.util.List;
 import java.util.StringTokenizer;
 
 import akka.actor.UntypedActor;
-import message.MapData;
-import message.WordCount;
+import co.tzhang.akka.message.MapData;
+import co.tzhang.akka.message.WordCount;
 
 /**
  * Created by TZhang on 27/11/15.

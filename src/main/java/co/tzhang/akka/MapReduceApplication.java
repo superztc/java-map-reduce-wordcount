@@ -1,13 +1,14 @@
-import java.time.Duration;
+package co.tzhang.akka;
+
 import java.util.concurrent.TimeUnit;
 
-import actors.MasterActor;
+import co.tzhang.akka.actors.MasterActor;
 import akka.actor.ActorRef;
 import akka.actor.ActorSystem;
 import akka.actor.Props;
 import akka.pattern.Patterns;
 import akka.util.Timeout;
-import message.Result;
+import co.tzhang.akka.message.Result;
 
 import scala.concurrent.Await;
 import scala.concurrent.Future;
